@@ -1,107 +1,451 @@
-[21:05:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:05:53] [ServerMain/INFO]: Found new data pack file/back v1.3.4 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/coordinates hud v1.2.4 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/double shulker shells v1.3.4 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/dragon drops v1.3.4 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/graves v2.8.8 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/more mob heads v2.12.1 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/multiplayer sleep v2.6.4 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/player head drops v1.1.4 (MC 1.20.x).zip, loading it automatically
-[21:05:53] [ServerMain/INFO]: Found new data pack file/tpa v2.3.4 (MC 1.20.x).zip, loading it automatically
-[21:05:54] [ServerMain/WARN]: Found loot table element validation problem in {loot_tables:minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/bat
-[21:05:54] [ServerMain/INFO]: Loaded 7 recipes
-[21:05:55] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:05:55] [Server thread/INFO]: Loading properties
-[21:05:55] [Server thread/INFO]: This server is running Paper version git-Paper-83 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: c793bd9)
-[21:05:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:05:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:05:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[23:09:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:10:01] [ServerMain/INFO]: Loaded 7 recipes
+[23:10:02] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[23:10:02] [Server thread/INFO]: Loading properties
+[23:10:02] [Server thread/INFO]: This server is running Paper version git-Paper-83 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: c793bd9)
+[23:10:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:10:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:10:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:05:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[21:05:56] [Server thread/INFO]: Default game type: SURVIVAL
-[21:05:56] [Server thread/INFO]: Generating keypair
-[21:05:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:05:56] [Server thread/INFO]: Using default channel type
-[21:05:56] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:05:56] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:05:56] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.6-899
-[21:05:57] [Server thread/INFO]: [dynmap] version=git-Paper-83 (MC: 1.20.1)
-[21:05:57] [Server thread/INFO]: [dynmap] Mod Support API available
-[21:05:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:05:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:05:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:05:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:05:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:05:57] [Server thread/INFO]: Preparing level "world"
-[21:05:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:05:57] [Server thread/INFO]: Time elapsed: 252 ms
-[21:05:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:05:57] [Server thread/INFO]: Time elapsed: 39 ms
-[21:05:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:05:57] [Server thread/INFO]: Time elapsed: 31 ms
-[21:05:57] [Server thread/INFO]: [dynmap] Enabling dynmap v3.6-899
-[21:05:58] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[21:05:58] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
-[21:05:58] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
-[21:05:58] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[21:06:02] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[21:06:02] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[21:06:02] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[21:06:02] [Server thread/INFO]: [dynmap] version 3.6-899 is enabled - core version 3.6-899
-[21:06:02] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[21:06:02] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[21:06:02] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[21:06:02] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 6624 pending tile renders for world 'world'
-[21:06:02] [Server thread/INFO]: [dynmap] Full render for world 'world' restored
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[21:06:02] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[21:06:02] [Server thread/INFO]: [dynmap] Enabled
-[21:06:02] [Server thread/INFO]: Running delayed init tasks
-[21:06:02] [Server thread/INFO]: Done (7.009s)! For help, type "help"
-[21:06:02] [Server thread/INFO]: Timings Reset
-[21:06:02] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[21:06:09] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2300 tiles rendered (322.89 msec/tile, 0.01 msec per render)
-[21:06:11] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2400 tiles rendered (310.32 msec/tile, 0.61 msec per render)
-[21:06:13] [User Authenticator #0/INFO]: UUID of player enjudev is 2440928f-c80d-34a5-b8e8-4414225dde5c
-[21:06:13] [Server thread/INFO]: enjudev joined the game
-[21:06:13] [Server thread/INFO]: enjudev[/192.168.1.3:55205] logged in with entity id 213 at ([world]0.5243194080964039, 82.0, -132.25898252526883)
-[21:07:36] [Server thread/INFO]: enjudev lost connection: Disconnected
-[21:07:36] [Server thread/INFO]: enjudev left the game
-[21:09:03] [Server thread/INFO]: Stopping the server
-[21:09:03] [Server thread/INFO]: Stopping server
-[21:09:03] [Server thread/INFO]: [dynmap] Disabling dynmap v3.6-899
-[21:09:03] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[21:09:03] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[21:09:03] [Server thread/INFO]: [dynmap] Saved 5494 pending tile renders in world 'world'
-[21:09:03] [Server thread/INFO]: [dynmap] Full render job saved for world 'world'
-[21:09:03] [Server thread/INFO]: [dynmap] Disabled
-[21:09:03] [Server thread/INFO]: Saving players
-[21:09:03] [Server thread/INFO]: Saving worlds
-[21:09:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:09:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:09:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:09:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:09:05] [Server thread/INFO]: [ChunkHolderManager] Saved 803 block chunks, 803 entity chunks, 0 poi chunks in world 'world' in 1.30s
-[21:09:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:09:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:09:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:09:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:09:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:09:05] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.61s
-[21:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:09:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:09:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:09:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:09:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:09:06] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.12s
-[21:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:09:06] [Server thread/INFO]: Flushing Chunk IO
-[21:09:06] [Server thread/INFO]: Closing Thread Pool
-[21:09:06] [Server thread/INFO]: Closing Server
+[23:10:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[23:10:02] [Server thread/INFO]: Default game type: SURVIVAL
+[23:10:02] [Server thread/INFO]: Generating keypair
+[23:10:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:10:02] [Server thread/INFO]: Using default channel type
+[23:10:02] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:10:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:10:03] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[23:10:03] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+[23:10:04] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[23:10:04] [Server thread/INFO]: [JEXT] Loading server plugin JukeboxExtendedReborn v1.2.2
+[23:10:04] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.6-SNAPSHOT
+[23:10:04] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.6-899
+[23:10:04] [Server thread/INFO]: [dynmap] version=git-Paper-83 (MC: 1.20.1)
+[23:10:04] [Server thread/INFO]: [dynmap] Mod Support API available
+[23:10:04] [Server thread/INFO]: [ArtMap] Loading server plugin ArtMap v3.9.11
+[23:10:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:10:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[23:10:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:10:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:10:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:10:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:10:04] [Server thread/INFO]: Preparing level "world"
+[23:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:10:05] [Server thread/INFO]: Time elapsed: 226 ms
+[23:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:10:05] [Server thread/INFO]: Time elapsed: 35 ms
+[23:10:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:10:05] [Server thread/INFO]: Time elapsed: 30 ms
+[23:10:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[23:10:06] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[23:10:06] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[23:10:06] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[23:10:06] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v1.2.2
+[23:10:07] [Server thread/INFO]: [JEXT] Discs.json file not found please provide it in the plugin directory
+[https://github.com/spartacus04/jext-reborn/wiki/How-to-set-up-the-plugin]
+[23:10:07] [Server thread/WARN]: java.io.FileNotFoundException: discs.json file not found!
+[23:10:07] [Server thread/WARN]: 	at JEXT-Reborn_1.2.2.jar//me.spartacus04.jext.config.ConfigManager$Companion.load(ConfigManager.kt:75)
+[23:10:07] [Server thread/WARN]: 	at JEXT-Reborn_1.2.2.jar//me.spartacus04.jext.Jext.load(Jext.kt:65)
+[23:10:07] [Server thread/WARN]: 	at JEXT-Reborn_1.2.2.jar//me.spartacus04.jext.Jext.onEnable(Jext.kt:33)
+[23:10:07] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[23:10:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[23:10:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[23:10:07] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[23:10:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:639)
+[23:10:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:550)
+[23:10:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[23:10:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[23:10:07] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[23:10:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[23:10:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[23:10:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[23:10:07] [Server thread/INFO]: [JEXT] Disabling JukeboxExtendedReborn v1.2.2
+[23:10:07] [Server thread/INFO]: [JEXT] Disabled Jukebox Extended Reborn, Mi Re Do!
+[23:10:07] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[23:10:07] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[23:10:07] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen start' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced free' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced load' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced view once' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced worldinfo' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced view on' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced view off' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen forced totalinfo' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen fillvanilla' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen resume' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen pending' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen pause' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/WARN]: Plugin 'FastChunkPregenerator' is creating timing 'Command: chunkgen cancel' - this is deprecated behavior, please report it to the authors: Gestankbratwurst
+[23:10:07] [Server thread/INFO]: [dynmap] Enabling dynmap v3.6-899
+[23:10:07] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[23:10:07] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[23:10:07] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[23:10:07] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[23:10:10] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[23:10:10] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[23:10:10] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[23:10:10] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[23:10:11] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[23:10:11] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[23:10:11] [Server thread/INFO]: [dynmap] version 3.6-899 is enabled - core version 3.6-899
+[23:10:11] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[23:10:11] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[23:10:11] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[23:10:11] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[23:10:11] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[23:10:11] [Server thread/INFO]: [dynmap] Loaded 393 pending tile renders for world 'world'
+[23:10:11] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[23:10:11] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[23:10:11] [Server thread/INFO]: [dynmap] Enabled
+[23:10:11] [Server thread/INFO]: [ArtMap] Enabling ArtMap v3.9.11
+[23:10:11] [Server thread/INFO]: [ArtMap] Loading 'english' language file
+[23:10:11] [Server thread/INFO]: [ArtMap] WorldGuard 7 not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Sabre Factions not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Grief Defender not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Grief Prevention not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Red Protect not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] ASkyBlock not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] uSkyBlock not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] BentoBox/BSkyBlock not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Plot Squared 4 not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Plot Squared 5 not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Plot Squared 6 not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Residence not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Towny not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Marriage Master not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] CMI not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] Essentials not detected.  Hooks skipped.
+[23:10:11] [Server thread/INFO]: [ArtMap] ProtocolLib hooks enabled.
+[23:10:11] [Server thread/INFO]: [ArtMap]  MC version: v1_18
+[23:10:11] [Server thread/INFO]: Running delayed init tasks
+[23:10:11] [Server thread/INFO]: Done (9.446s)! For help, type "help"
+[23:10:11] [Server thread/INFO]: Timings Reset
+[23:10:11] [Craft Scheduler Thread - 1 - ArtMap/INFO]: [ArtMap] Async load of 1 artists started. 0 retrieved from disk cache.
+[23:10:11] [Craft Scheduler Thread - 1 - ArtMap/INFO]: [ArtMap] Loaded 0 from disk cache, 0 from server, and 0 from mojang out of 0 artists with 0 failures
+[23:10:11] [Craft Scheduler Thread - 1 - ArtMap/INFO]: [ArtMap] Remaining artists will be loaded when needed.
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[23:10:11] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:10:11] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[23:10:17] [User Authenticator #0/INFO]: UUID of player enjudev is 2440928f-c80d-34a5-b8e8-4414225dde5c
+[23:10:17] [Server thread/INFO]: enjudev joined the game
+[23:10:17] [Server thread/INFO]: enjudev[/192.168.1.3:54654] logged in with entity id 221 at ([world]15.265420007117305, 100.0, -19.336800834534575)
+[23:10:25] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:11:54] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:12:21] [Server thread/INFO]: enjudev issued server command: /give enjudev stick 64
+[23:12:21] [Server thread/INFO]: [enjudev: Gave 64 [Stick] to enjudev]
+[23:12:27] [Server thread/INFO]: enjudev issued server command: /give enjudev string 64
+[23:12:27] [Server thread/INFO]: [enjudev: Gave 64 [String] to enjudev]
+[23:12:33] [Server thread/INFO]: enjudev issued server command: /give enjudev minecraft:leather 64
+[23:12:33] [Server thread/INFO]: [enjudev: Gave 64 [Leather] to enjudev]
+[23:12:43] [Server thread/INFO]: enjudev issued server command: /give enjudev minecraft:painting 64
+[23:12:43] [Server thread/INFO]: [enjudev: Gave 64 [Painting] to enjudev]
+[23:12:51] [Server thread/INFO]: enjudev issued server command: /give enjudev minecraft:armor_stand 64
+[23:12:51] [Server thread/INFO]: [enjudev: Gave 64 [Armor Stand] to enjudev]
+[23:13:07] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:13:30] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:14:55] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:15:25] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:16:35] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:16:50] [Server thread/WARN]: [ArtMap] Task #1121 for ArtMap v3.9.11 generated an exception
+java.lang.ExceptionInInitializerError: null
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.IllegalStateException: AnvilGUI does not support server version "1_20_R1"
+	at me.fupery.shade.version.VersionMatcher.match(VersionMatcher.java:32) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.fupery.shade.AnvilGUI.<clinit>(AnvilGUI.java:42) ~[ArtMap-JDK17-3.9.11.jar:?]
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: me.fupery.shade.version.Wrapper1_20_R1
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:375) ~[?:?]
+	at me.fupery.shade.version.VersionMatcher.match(VersionMatcher.java:28) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.fupery.shade.AnvilGUI.<clinit>(AnvilGUI.java:42) ~[ArtMap-JDK17-3.9.11.jar:?]
+	... 10 more
+[23:16:50] [Server thread/WARN]: [ArtMap] Task #1122 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:50] [Server thread/WARN]: [ArtMap] Task #1125 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:50] [Server thread/WARN]: [ArtMap] Task #1126 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:51] [Server thread/WARN]: [ArtMap] Task #1127 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:51] [Server thread/WARN]: [ArtMap] Task #1128 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:51] [Server thread/WARN]: [ArtMap] Task #1131 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:51] [Server thread/WARN]: [ArtMap] Task #1132 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:52] [Server thread/WARN]: [ArtMap] Task #1133 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:52] [Server thread/WARN]: [ArtMap] Task #1134 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:52] [Server thread/WARN]: [ArtMap] Task #1135 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:55] [Server thread/WARN]: [ArtMap] Task #1144 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:55] [Server thread/WARN]: [ArtMap] Task #1145 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:57] [Server thread/WARN]: [ArtMap] Task #1153 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:57] [Server thread/WARN]: [ArtMap] Task #1154 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:58] [Server thread/WARN]: [ArtMap] Task #1155 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:16:58] [Server thread/WARN]: [ArtMap] Task #1156 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:17:00] [Server thread/INFO]: enjudev issued server command: /artmap
+[23:17:29] [Server thread/WARN]: [ArtMap] Task #1262 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:17:29] [Server thread/WARN]: [ArtMap] Task #1265 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:17:30] [Server thread/WARN]: [ArtMap] Task #1266 for ArtMap v3.9.11 generated an exception
+java.lang.NoClassDefFoundError: Could not initialize class me.fupery.shade.AnvilGUI
+	at me.fupery.shade.AnvilGUI$Builder.open(AnvilGUI.java:550) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at me.Fupery.ArtMap.Painting.ArtistHandler.lambda$handlePaintBrush$2(ArtistHandler.java:120) ~[ArtMap-JDK17-3.9.11.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-83]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.1.jar:git-Paper-83]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-83]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[23:19:09] [Server thread/INFO]: Stopping server
+[23:19:09] [Server thread/INFO]: [ArtMap] Disabling ArtMap v3.9.11
+[23:19:09] [Server thread/INFO]: [dynmap] Disabling dynmap v3.6-899
+[23:19:09] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[23:19:09] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[23:19:09] [Server thread/INFO]: [dynmap] Saved 403 pending tile renders in world 'world'
+[23:19:09] [Server thread/INFO]: [dynmap] Disabled
+[23:19:09] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[23:19:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[23:19:09] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[23:19:09] [Server thread/INFO]: Saving players
+[23:19:09] [Server thread/INFO]: enjudev lost connection: Server closed
+[23:19:09] [Server thread/INFO]: enjudev left the game
+[23:19:09] [Server thread/INFO]: Saving worlds
+[23:19:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:19:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:19:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:19:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 535 block chunks, 176 entity chunks, 0 poi chunks in world 'world' in 0.67s
+[23:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:19:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[23:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:19:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[23:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:19:10] [Server thread/INFO]: Flushing Chunk IO
+[23:19:10] [Server thread/INFO]: Closing Thread Pool
+[23:19:10] [Server thread/INFO]: Closing Server
